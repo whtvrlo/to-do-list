@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/to-do-list/static/css/main.31d6cfe0.css",
+    "main.js": "/to-do-list/static/js/main.e37155ff.js",
+    "static/media/ndelap.jpg": "/to-do-list/static/media/ndelap.6f778b07fc4d092ece96.jpg",
+    "index.html": "/to-do-list/index.html",
+    "main.e37155ff.js.map": "/to-do-list/static/js/main.e37155ff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.e37155ff.js"
+  ]
+}
