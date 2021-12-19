@@ -1,8 +1,16 @@
-/* * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+h1 {
+  font-size: 1.5rem;
+  border-bottom-style: solid;
+  border-color: #d75dd3;
+  border-width: 10px;
+}
+
 body {
   background-image: linear-gradient(120deg, #f69365 0%, #fda085 100%);
   color: white;
@@ -15,10 +23,18 @@ body {
   flex-direction: column;
   width: 20%;
   height: auto;
+  background-color: blue;
+}
+
+input {
+  width: 100%;
+  height: 3rem;
 }
 
 h2 {
   margin-top: 20px;
+  background-color: #d75dd3;
+  margin-bottom: 3mm;
 }
 
 button {
@@ -48,16 +64,6 @@ form button:hover {
   align-items: center;
   transition: all 1s ease;
 }
-.filter-todo {
-  padding: 1rem;
-}
-
-.complete-btn {
-  background: rgb(11, 212, 162);
-}
-.todo-item {
-  padding: 0rem 0.5rem;
-}
 
 .addButton {
   margin-top: 3mm;
@@ -67,4 +73,54 @@ form button:hover {
   border-color: rgb(176, 180, 180);
   display: flex;
   justify-content: center;
-} */
+}
+
+.remove-btn {
+  margin-top: 3mm;
+  margin-bottom: 3mm;
+  width: 5rem;
+  border-style: solid;
+  border-width: 0.2mm;
+  border-color: rgb(176, 180, 180);
+}
+
+.done-btn {
+  margin-top: 3mm;
+  margin-bottom: 3mm;
+}
+
+h1 {
+  color: #57d39e;
+  display: flex;
+  justify-content: center;
+}
+
+.img {
+  width: 100%;
+}
+
+.buttonRDBox {
+  margin-top: 3mm;
+  margin-bottom: 1mm;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: rgb(45, 160, 70);
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(0, 0, 0);
+}
+
+#doneremoveButtons button {
+  display: flex;
+  justify-content: center;
+
+  background-color: rosybrown;
+}
+
+a:hover {
+  color: #d75dd3;
+  font-size: 1rem;
+}
