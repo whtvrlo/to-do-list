@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import "./toDo.css";
-import artwork from "./Components/artwork.jpg";
+// import artwork from "./Components/artwork.jpg";
 
 
 
@@ -23,9 +23,6 @@ const Todo = () => {
         setList(newArray)
         setInput("") // clear input text box by setting setInput to an empty string 
     }
-
-
-
 
 
    const removeHandler = (index) => {
@@ -52,7 +49,7 @@ const Todo = () => {
             {list.map((item, index) => {
                 return <Note update={update} index={index} removeHandler={removeHandler} key={index} item={item} /> // send removehandler function to note component so it can be used below note component=> sending function as prop. 
             })}
-            <img src={artwork} alt=""/>
+            {/* <div className="image"><img src={artwork} alt=""/></div> */}
         </div>
     </div>
     )
@@ -61,7 +58,7 @@ const Todo = () => {
 const Note = (props) => {
     return  (
         <div className="buttonRDBox">
-            <button className="done-btn"><a>done</a></button>
+            {/* <button className="done-btn"><a>done</a></button> */}
             <h2 className="taskbox">{props.item}</h2>
            <div id="doneremoveButtons"> 
             </div>
